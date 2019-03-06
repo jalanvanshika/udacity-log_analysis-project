@@ -75,6 +75,7 @@ select to_char(date(time) ,'Mon DD,YYYY'), (100*sum(case when log.status='200 OK
 
 **Running the program**
     1. cd into the folder having log_analysis.py file and run:
-    ```sh
+```sh
     $ python log_analysis.py
-    ```
+```
+
