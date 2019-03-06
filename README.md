@@ -20,27 +20,27 @@ In this project, you'll work with data that could have come from a real-world we
 
 
 ### Set-Up
-1. Launch the  Vagrant Virtual Machine inside the vagrant sub-directory by       using:
+**1. Launch the  Vagrant Virtual Machine inside the vagrant sub-directory by       using:**
  ```sh
 $ vagrant up
 ```
-2. Log into your vm by using:
+**2. Log into your vm by using:**
 ```sh
 $ vagrant ssh
 ```
-3. Change directory to /vagrant by using:
+**3. Change directory to /vagrant by using:**
 ```sh
 $ cd /vagrant
 ```
-4. Load the database by using:
+**4. Load the database by using:**
 ```sh
 psql -d news -f newsdata.sql
 ```
-5. Connect to database by using:
+**5. Connect to database by using:**
 ```sh
 psql -d news
 ```
-6. Explore the data\tables by using:
+**6. Explore the data\tables by using:**
 ```
 \dt+ (or)
 \d table
