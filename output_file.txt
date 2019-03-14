@@ -41,46 +41,7 @@ Markoff Chaney --> 84557 views
 
 Days when more than 1% of requests lead to errors are?
 2016-07-17 --> 2 %
-=======
-#Output when using psql command on command prompt
-
---Output for first query--
-              title               | views
-----------------------------------+--------
- Candidate is jerk, alleges rival | 338647
- Bears love berries, alleges bear | 253801
- Bad things gone, say good people | 170098
 
 
 
---Output for second query--
-          name          | id | views
-------------------------+----+--------
- Ursula La Multa        |  1 | 507594
- Rudolf von Treppenwitz |  2 | 423457
- Anonymous Contributor  |  3 | 170098
- Markoff Chaney         |  4 |  84557
 
-
-
---Output for third query--
-    date    | percent error
-------------+---------------
- 2016-07-17 |             2
-
-
-#Output when running python code (log_analysis.py)
-
-What are the most popular 3 articles?
-Candidate is jerk, alleges rival --> 338647 views
-Bears love berries, alleges bear --> 253801 views
-Bad things gone, say good people --> 170098 views
-
-Who are the most popular authors of all time?
-Ursula La Multa --> 507594 views
-Rudolf von Treppenwitz --> 423457 views
-Anonymous Contributor --> 170098 views
-Markoff Chaney --> 84557 views
-
-Days when more than 1% of requests lead to errors are?
-2016-07-17 --> 2 %
